@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* -- -=-=-=-=-= Variable Css =-=-=-=-=- -- */
+:root {
+  /* -=-= Colors =-=- */
+  --primary-clr: rgba(255, 144, 14, 1);
+  --primary-hover-clr: rgba(255, 144, 14, 0.7);
+
+  --dark-clr-100: rgba(19, 19, 19, 1);
+  --dark-clr-200: rgba(66, 66, 66, 1);
+  --dark-clr-300: rgba(114, 114, 114, 1);
+  --dark-clr-400: rgba(161, 161, 161, 1);
+  --dark-clr-500: rgba(208, 208, 208, 1);
+  --dark-clr-600: rgba(231, 231, 231, 1);
+  --dark-clr-700: rgba(243, 243, 243, 1);
+
+  --body-bg-clr: rgba(255, 255, 255, 1);
+  --banner-bg-clr: rgba(255, 144, 14, 0.1);
+  --socket-bg-clr: rgba(255, 244, 231, 1);
+
+  /* -=-= Fonts & Typography =-=- */
+  --ff-Work-Sans: "Work Sans";
+
+  --fs-body: 16px;
+
+  --fs-2xl: 4.0625em;
+  --fs-xl: 2.8125em;
+  --fs-lg: 1.5625em;
+  --fs-md: 1.25em;
+  --fs-sm: 1.125em;
+
+  --fw-ex-light: 200;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+}
+
+/* -- -=-=-=-=-= Css Reset =-=-=-=-=- -- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  font-family: var(--ff-Work-Sans), serif;
+  font-weight: var(--fw-regular);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  color: var(--dark-clr-300);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-bold);
+  color: var(--dark-clr-100);
+}
+
+a,
+button,
+input {
+  cursor: pointer;
+}
+
+a,
+button,
+input,
+input::placeholder,
+table {
+  font: inherit;
+}
+
+button,
+input,
+table {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+video,
+svg,
+picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+span {
+  display: block;
+}
+
+div,
+section {
+  max-width: 100%;
+  height: auto;
+}
