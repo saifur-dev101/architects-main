@@ -116,8 +116,20 @@ span {
   display: block;
 }
 
-div,
-section {
-  max-width: 100%;
-  height: auto;
+/* -- -=-=-=-=-= Default Css Set =-=-=-=-=- -- */
+.container {
+  max-width: 1480px; /* Due to 20px padding on both sides. */
+  margin: 0 auto;
+  padding-inline: 1.25em;
+}
+
+/* -- -=-=-=-=-= Header Css Style =-=-=-=-=- -- */
+.header {
+  background-color: var(--banner-bg-clr);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
